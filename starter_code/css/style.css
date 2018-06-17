@@ -199,5 +199,15 @@ footer{
         max-width: 100%;
         width: 20px;
     }
+}
 
+@media (min-width: 768px) and (max-width: 968px) {
+    nav > ul {
+        display: none;
+    }
+
+    .logo-container{
+        max-width: 100%;
+        width: 80px;
+    }  
 }
